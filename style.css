@@ -48,9 +48,8 @@ section {
 div.box {
   height: 425px;
 }
-article img {
-  max-width: 100%;
-  height: auto;
+section#fixnocost div.box img {
+  height: 400px;
 }
 
 button {
@@ -108,3 +107,24 @@ svg {
 article p {
   margin-top: .25rem;
 }
+
+/*
+@media (max-width: 400px) {
+  section {
+  padding: 4rem 5rem;
+  grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  section {
+  padding: 4rem 5rem;
+  grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1080px) {
+  section {
+  padding: 4rem 5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+*/
